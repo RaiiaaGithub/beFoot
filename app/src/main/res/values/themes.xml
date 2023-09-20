@@ -1,0 +1,117 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BeFoot" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.BeFoot" parent="Base.Theme.BeFoot" />
+
+
+    <!-- BUTTONS -->
+    <style name="Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:paddingTop">@dimen/button_padding_block_default</item>
+        <item name="android:paddingBottom">@dimen/button_padding_block_default</item>
+        <item name="android:paddingLeft">@dimen/button_padding_inline_default</item>
+        <item name="android:paddingRight">@dimen/button_padding_inline_default</item>
+        <item name="cornerRadius">@dimen/button_radius</item>
+
+        <item name="android:textSize">@dimen/button_text_size_default</item>
+
+        <item name="android:backgroundTint">@android:color/transparent</item>
+        <item name="android:textColor">@color/gray_darkest</item>
+    </style>
+
+    <style name="Button.Primary" parent="Button">
+        <item name="android:backgroundTint">@color/accent</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Button.Primary.Light" parent="Button">
+        <item name="android:backgroundTint">@color/teal_light</item>
+        <item name="android:textColor">@color/teal_dark</item>
+    </style>
+
+    <style name="Button.Primary.Link" parent="Button">
+        <item name="android:textColor">@color/teal</item>
+    </style>
+
+    <style name="Button.Secondary" parent="Button">
+        <item name="android:backgroundTint">@color/primary</item>
+        <item name="android:textColor">@color/gray_darkest</item>
+    </style>
+
+    <style name="Button.Secondary.Link" parent="Button">
+        <item name="android:textColor">@color/gray_darkest</item>
+    </style>
+
+    <style name="Button.Info" parent="Button">
+        <item name="android:backgroundTint">@color/blue</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Button.Info.Light" parent="Button">
+        <item name="android:backgroundTint">@color/blue_light</item>
+        <item name="android:textColor">@color/blue_dark</item>
+    </style>
+
+    <style name="Button.Success" parent="Button">
+        <item name="android:backgroundTint">@color/green</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Button.Success.Light" parent="Button">
+        <item name="android:backgroundTint">@color/green_light</item>
+        <item name="android:textColor">@color/green_dark</item>
+    </style>
+
+    <style name="Button.Warning" parent="Button">
+        <item name="android:backgroundTint">@color/orange</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Button.Warning.Light" parent="Button">
+        <item name="android:backgroundTint">@color/orange_light</item>
+        <item name="android:textColor">@color/orange_dark</item>
+    </style>
+
+    <style name="Button.Error" parent="Button">
+        <item name="android:backgroundTint">@color/red</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Button.Error.Light" parent="Button">
+        <item name="android:backgroundTint">@color/red_light</item>
+        <item name="android:textColor">@color/red_dark</item>
+    </style>
+
+    <style name="Button.Error.Link" parent="Button">
+        <item name="android:textColor">@color/red</item>
+    </style>
+
+    <!--  CARDS  -->
+    <style name="Card">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:paddingTop">@dimen/card_padding_block_default</item>
+        <item name="android:paddingBottom">@dimen/card_padding_block_default</item>
+        <item name="android:paddingLeft">@dimen/card_padding_inline_default</item>
+        <item name="android:paddingRight">@dimen/card_padding_inline_default</item>
+
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="CardTitle">
+        <item name="android:textSize">@dimen/card_title_size</item>
+        <item name="android:textColor">@color/gray_darkest</item>
+    </style>
+
+    <style name="CardSubtitle">
+        <item name="android:textSize">@dimen/card_subtitle_size</item>
+        <item name="android:textColor">@color/gray_dark</item>
+    </style>
+</resources>
